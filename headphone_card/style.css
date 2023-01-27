@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(243, 228, 208);
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 600px;
+    /* max-height: 800px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top:300px;
+    padding: 40px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+   justify-content: left;
+  
+  
+    
+    
+}
+
+.mugimage{
+      
+
+     width: 40%;
+   
+    border: 1px solid black;
+   
+}
+
+.mugimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.info{
+   width:60%;
+   object-fit: cover;
+    border: 1px solid red;
+    
+
+}
